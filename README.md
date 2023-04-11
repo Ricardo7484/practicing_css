@@ -12,3 +12,4 @@ Repository made to remenber end increasing knowledge in CSS.
         id and tag, use one per type;
         class, use punctually, but without restriction
 3) relationship
+4) pseudoselectors

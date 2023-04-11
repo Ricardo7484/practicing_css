@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Selectors</title>
+    <style>
+        a {
+            color: greenyellow;
+        }
+        a:hover {
+            color: blue;
+        }
+        a:active {
+            color: brown;
+        }
+        input:focus {
+            color: red;
+        }
+        div:focus-within {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div><a href="" class="logo">Logo</a></div>
+            <input type="text">
+        </div>
+    </header>
+    <main id="content">
+        <section>
+            <h1 class="logo"></h1>
+            <p>Some text</p>
+            <a>Test</a>
+        </section>
+    </main>
+    <footer>
+        <p class="logo">&copy; Copyrights</p>
+    </footer>
+</body>
+</html>
