@@ -13,3 +13,6 @@ Repository made to remenber end increasing knowledge in CSS.
         class, use punctually, but without restriction
 3) relationship
 4) pseudoselectors
+5) examples_links
+6) other_selectors
+7) separate_style_sheet
