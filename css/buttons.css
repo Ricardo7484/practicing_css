@@ -1,12 +1,12 @@
-btn {
+.btn {
     display: inline-block;
     text-decoration: none;
     background-color: #8FBC8F;
     color: ffffff;
     padding: 10px 20px;
     border-radius: 10px;
-
-
+    border: none;
+    cursor: pointer;
 }
 .btn.btn-blue {
     text-decoration: none;

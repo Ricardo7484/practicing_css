@@ -1,4 +1,6 @@
 @import 'buttons.css';
+@import 'menu.css';
+@import 'form.css';
 
 body{
     padding: 10px;
