@@ -2,4 +2,30 @@
 
 body{
     padding: 10px;
+    background-color: rgb(141, 56, 221);
+    font-family: 'Roboto', 'Rubik Pixels', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+.box{
+    background-color: rgb(101, 33, 165);
+    margin: 20px 20px 30px 0px;  /*up right down left*/
+    padding: 20px 20px 20px 0px;
+    border: 10px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    position: relative;
+}
+
+#modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
 }
